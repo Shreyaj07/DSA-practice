@@ -1,5 +1,6 @@
 import java.util.ArrayList;
-
+//first and last position of an elmeent in a sorted array
+//gfg
 class Solution {
     ArrayList<Long> find(long arr[], int n, int x) {
         ArrayList<Long> ans = new ArrayList<>();
