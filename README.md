@@ -2,14 +2,17 @@
 
 ## Strivers Sheet
 
-| Day | Problems                                 |
-| --- | ------------------------------------- |
-| 1   | - [x] Set Matrix Zeroes               |
-|     | - [x] Pascal's Triangle              |
-|     | - [ ] Next Permutation                        |
-|     | - [x] Kadane Algorithm                      |
-|    | - [x] Dutch Flag algorithm                    |
-|     | - [x]Stock Buy and Sell       |
-|  2   | - [ ] Rotate Matrix                 |
-|      | - [ ] Rotate Matrix                 |
-
+| Day | Problems                                                             | Vaishnavi | Shreya  | Tejashree |
+| --- | ---------------------------------------------------------------------| :-------: | :----:  | :-------: |
+| 1   | Set Matrix Zeroes                                                    |   &#9745; | &#9745; |           |
+|     | Pascal's Triangle                                                    |   &#9745; | &#9745; |           |
+|     | Next Permutation                                                     |           |         |           |
+|     | Kadane Algorithm                                                     |   &#9745; |         |           |
+|     | Dutch Flag Algorithm                                                 |   &#9745; |         |           |
+|     | Stock Buy and Sell                                                   |   &#9745; |         |           |
+|  2  | Rotate Matrix                                                        |   &#9745; |         |           |
+|     | Merge Overlapping subintervals                                       |   &#9745; |         |           |
+|     | Merge 2 sorted arr w/o extra spaces                                  |   &#9745; |         |           |
+|     | Find the duplicates in an array N+1 integers                         |   &#9745; |         |           |
+|     | Repeat and missing nos.                                              |   &#9745; |         |           |
+|     | Inversion of array                                                   |   &#9745; |         |           |
