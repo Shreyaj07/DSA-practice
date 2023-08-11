@@ -11,6 +11,7 @@ class Solution {
 //        }
 //        Arrays.sort(nums1);
 //        ----------------------------------------------------
+//       Merge in place algorithm
         int i = m - 1;
         int j = n - 1;
         int k = m + n - 1;
