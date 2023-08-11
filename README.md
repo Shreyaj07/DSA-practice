@@ -16,9 +16,9 @@
 |     | Find the duplicates in an array N+1 integers                         |   &#9745; |         |           |
 |     | Repeat and missing nos.                                              |   &#9745; |         |           |
 |     | Inversion of array                                                   |   &#9745; |         |           |
-|  3  | Search in a 2-D Matrix                                               |           |         |           |
+|  3  | Search in a 2-D Matrix                                               |   &#9745; |         |           |
 |     | Pow(x,n)                                                             |           |         |           |
-|     | Majority Elements(>n/2 times)                                        |           |         |           |
+|     | Majority Elements(>n/2 times)                                        |   &#9745; |         |           |
 |     | Majority Elements(>n/3 times)                                        |           |         |           |
 |     | Grid Unique Path                                                     |           |         |           |
 |     | Reverse Pairs                                                        |           |         |           |
