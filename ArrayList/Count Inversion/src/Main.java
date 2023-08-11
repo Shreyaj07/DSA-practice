@@ -1,3 +1,5 @@
+//Day 2: Coding ninjas: question 6
+
 import java.util.Arrays;
 
 public class Main {
