@@ -1,5 +1,5 @@
-
-public class String {
+package com.vaishnavi;
+public class StringClass {
     public static void main(java.lang.String[] args) {
         java.lang.String a = new java.lang.String("Vaishnavi");
         java.lang.String b = new java.lang.String("Vaishnavi");
