@@ -1,10 +1,9 @@
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.util.Stack;
 
-public class Maze {
+public class Main {
     int rows = 0, cols = 0;
     char[][] store;
     MazeCell currentCell, exitCell = new MazeCell(), entryCell = new MazeCell();
@@ -12,7 +11,7 @@ public class Maze {
     final char passage = '0', wall = 'l';
     Stack<MazeCell> mazeStack = new Stack<MazeCell>();
 
-    Maze() {
+    Main() {
         int row = 0, col = 0;
         Stack<String> mazeRows = new Stack<String>();
         InputStreamReader isr = new InputStreamReader(System.in);
@@ -90,6 +89,6 @@ public class Maze {
     }
 
     public static void main(String[] args) {
-        new Maze().exitMaze(System.out);
+        new Main().exitMaze(System.out);
     }
 }

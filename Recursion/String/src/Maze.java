@@ -1,6 +1,7 @@
-public class Maze {
+public class Main {
     public static void main(String[] args) {
         System.out.println(count(3,3));
+        path("",3,3);
     }
     static int count(int r, int c){
         if(r==1||c==1){
@@ -9,5 +10,13 @@ public class Maze {
         int left = count(r-1,c);
         int right = count(r,c-1);
         return left+right;
+    }
+    static void path(String p, int r ,int c){
+        if(r==1 || c==1){
+            System.out.println(p);
+            return;
+        }
+        path(p+"R",r,c-1);
+        path(p+"D",r-1,c);
     }
 }
