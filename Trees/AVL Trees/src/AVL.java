@@ -1,4 +1,4 @@
-class BST {
+class AVL {
     public class Node {
         private int value;
         private Node left;
@@ -16,7 +16,7 @@ class BST {
 
     private Node root;
 
-    public BST() {
+    public AVL() {
 
     }
 
@@ -39,7 +39,49 @@ class BST {
         }
 
         node.height = Math.max(height(node.left), height(node.right)) + 1;
+        return rotate(node);
+    }
+
+    private Node rotate(Node node) {
+        if (height(node.left) - height(node.right) > 1) {
+            //left heavy
+            if (height(node.left.left) - height(node.left.right) > 0) {
+                //left left case
+                return rightRotate(node);
+            }
+            if (height(node.left.left) - height(node.left.right) < 0) {
+                //left right case
+                node.left = leftRotate(node.left);
+                return rightRotate(node);
+            }
+        }
+        if (height(node.left) - height(node.right) < -1) {
+            //right heavy
+            if (height(node.right.left) - height(node.right.right) < 0) {
+                //right left case
+                return leftRotate(node);
+            }
+            if (height(node.right.left) - height(node.right.right) > 0) {
+                //right right case
+                node.right = rightRotate(node.right);
+                return leftRotate(node);
+            }
+        }
         return node;
+    }
+
+    private Node leftRotate(Node node) {
+
+    }
+
+    private Node rightRotate(Node parent) {
+        Node child = parent.left;
+        Node t2 = child.right;
+        child.right = parent;
+        parent.left = t2;
+        parent.height = Math.max(height(parent.left),height(parent.right)+1);
+        
+        return child;
     }
 
     public void populate(int[] nums) {
@@ -98,37 +140,5 @@ class BST {
         }
         return Math.abs(height(node.left) - height(node.right)) <= 1 && balanced(node.left) && balanced(node.right);
     }
-    public void preOrder(){
-        preOrder(root);
-    }
-    public void preOrder(Node node){
-        if(node==null){
-            return;
-        }
-        System.out.print(node.value+" ");
-        preOrder(node.left);
-        preOrder(node.right);
-    }
-    public void inOrder(){
-        inOrder(root);
-    }
-    public void inOrder(Node root){
-        if(root==null){
-            return;
-        }
-        inOrder(root.left);
-        System.out.print(root.value + " ");
-        inOrder(root.right);
-    }
-    public void postOrder(){
-        postOrder(root);
-    }
-    public void postOrder(Node root){
-        if(root==null){
-            return;
-        }
-        postOrder(root.left);
-        postOrder(root.right);
-        System.out.print(root.value + " ");
-    }
+
 }
