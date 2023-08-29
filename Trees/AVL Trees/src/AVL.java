@@ -23,7 +23,9 @@ class AVL {
     public void insert(int value) {
         root = insert(value, root);
     }
-
+    public int height() {
+        return height(root);
+    }
     private Node insert(int value, Node node) {
         if (node == null) {
             node = new Node(value);
@@ -70,17 +72,22 @@ class AVL {
         return node;
     }
 
-    private Node leftRotate(Node node) {
-
+    private Node leftRotate(Node child) {
+        Node parent = child.right;
+        Node t2 = parent.left;
+        parent.left = child;
+        child.right = t2;
+        parent.height = Math.max(height(parent.left),height(parent.right)+1);
+        child.height = Math.max(height(child.left),height(child.right)+1);
+        return parent;
     }
-
     private Node rightRotate(Node parent) {
         Node child = parent.left;
         Node t2 = child.right;
         child.right = parent;
         parent.left = t2;
-        parent.height = Math.max(height(parent.left),height(parent.right)+1);
-        
+        parent.height = Math.max(height(parent.left), height(parent.right) + 1);
+        child.height = Math.max(height(child.left), height(child.right) + 1);
         return child;
     }
 
