@@ -1,3 +1,5 @@
+import java.util.PriorityQueue;
+
 public class Heap {
     int[] arr;
     int size;
@@ -42,6 +44,16 @@ public class Heap {
            }
         }
     }
+    void heapSort(int[] arr, int n){
+        int size = n;
+        while(size>1){
+            //step1: swap
+            swap(arr,size,1);
+            size--;
+            //step 2: heapify
+            heapify(arr,size,1);
+        }
+    }
     void heapify(int[] arr, int n, int i){
         int largest = i;
         int left = 2*i;
@@ -68,4 +80,5 @@ public class Heap {
         arr[parent] = arr[child];
         arr[child] = temp;
     }
+
 }
