@@ -7,6 +7,7 @@ public class Heap {
         arr[0] = -1;
     }
     void insert(int val){
+        //time complexity - o(logn)
         size+=1;
         int index = size;
         arr[index] = val;
@@ -21,8 +22,43 @@ public class Heap {
             }
         }
     }
+     void delete(){
+        if(size==0){
+            System.out.println("Nothing to delete");
+            return;
+        }
+        arr[1] = arr[size];
+        size--;
+        int index = 1;
+        while(index<size){
+           if(arr[2*index] > arr[index] && 2*index<size){
+               swap(arr,2*index,index);
+               index = 2*index;
+           }else if(arr[2*index+1] > arr[index] && 2*index+1<size){
+               swap(arr,2*index+1,index);
+               index = 2*index+1;
+           }else{
+               return;
+           }
+        }
+    }
+    void heapify(int[] arr, int n, int i){
+        int largest = i;
+        int left = 2*i;
+        int right = left+1;
+        if(left < n&& arr[largest]<arr[left]){
+            largest = left;
+        }
+        if(right<n && arr[largest]<arr[right]){
+            largest = right;
+        }
+        if(largest!=i){
+            swap(arr,largest,i);
+            heapify(arr,n,largest);
+        }
+    }
     void print(){
-        for(int i =0; i<=size; i++){
+        for(int i =1; i<=size; i++){
             System.out.print(arr[i]+" ");
         }
         System.out.println();
