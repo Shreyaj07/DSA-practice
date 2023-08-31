@@ -1,9 +1,8 @@
-import java.sql.Array;
 import java.util.*;
 
-public class BFS {
+public class DFS {
     public static void main(String[] args) {
-        int n = 5; //vertices
+        int n = 6; //vertices
         List<List<Integer>> adj = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             adj.add(new ArrayList<>());
@@ -12,28 +11,28 @@ public class BFS {
         adj.get(0).add(2);
         adj.get(1).add(3);
         adj.get(1).add(4);
+        adj.get(2).add(5);
         System.out.println(adj);
-        List<Integer> bfsResult = bfsTraversal(n, adj);
-        System.out.println("BFS traversal: " + bfsResult);
+        List<Integer> dfsResult = dfsTraversal(n, adj); // Corrected function name
+        System.out.println("DFS traversal: " + dfsResult);
     }
 
-    public static List<Integer> bfsTraversal(int n, List<List<Integer>> adj) {
+    public static List<Integer> dfsTraversal(int n, List<List<Integer>> adj) { // Corrected function name
         boolean[] visited = new boolean[n];
         List<Integer> ans = new ArrayList<>();
-        Queue<Integer> q = new LinkedList<>();
-        q.offer(0);
+        Stack<Integer> st = new Stack<>();
+        st.add(0);
         visited[0] = true;
-        while (!q.isEmpty()) {
-            int vertex = q.poll();
+        while (!st.isEmpty()) {
+            int vertex = st.pop();
             ans.add(vertex);
             for (int neighbour : adj.get(vertex)) {
                 if (!visited[neighbour]) {
-                    q.offer(neighbour);
+                    st.push(neighbour);
                     visited[neighbour] = true;
                 }
             }
         }
         return ans;
     }
-
 }
