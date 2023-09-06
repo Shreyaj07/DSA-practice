@@ -1,6 +1,13 @@
+import java.util.Arrays;
+
 public class StrictlySortedMatrix {
     public static void main(String[] args) {
-
+        int[][] arr = {
+                {1,2,3},
+                {4,5,6},
+                {7,8,9}
+        };
+        System.out.println(Arrays.toString(StrictlySortedMatrix.search(arr, 6)));
     }
 
     //search in the row provided b/w the cols provided
@@ -49,10 +56,23 @@ public class StrictlySortedMatrix {
             return new int[]{rStart+1,cMid};
         }
         //search in 1st half
+        if(target<=matrix[rStart][cMid-1]){
+            return binarySearch(matrix,rStart,0,cMid-1,target);
+        }
         //search in 2nd half
+        if(target>=matrix[rStart][cMid+1] && target <=matrix[rStart][cols-1]){
+            return binarySearch(matrix,rStart,cMid+1,cols-1,target);
+        }
         //search in 3rd half
+        if(target<=matrix[rStart+1][cMid-1]){
+            return binarySearch(matrix,rStart+1,0,cMid-1,target);
+        }else{
+            return binarySearch(matrix,rStart+1,cMid+1,cols-1,target);
+        }
         //search in 4th half
-
+//        if(target>=matrix[rStart+1][cMid+1]){
+//
+//        }
     }
 }
 
