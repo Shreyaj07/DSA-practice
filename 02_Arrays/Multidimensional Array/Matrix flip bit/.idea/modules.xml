@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Selection Sort Algorithm.iml" filepath="$PROJECT_DIR$/Selection Sort Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Matrix flip bit.iml" filepath="$PROJECT_DIR$/Matrix flip bit.iml" />
     </modules>
   </component>
 </project>
