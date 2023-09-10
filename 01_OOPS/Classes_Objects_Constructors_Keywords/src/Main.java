@@ -23,7 +23,28 @@ public class Main {
         System.out.println(students[1]);
 
         students[2] = new Student();
+//        when a primitiveness is final, you can't reassign it
         System.out.println(students[2].rno+" "+students[2].name+" "+students[2].marks);
+        final A vk= new A("Vaishnavi Kale");
+        A obj;
+        for(int i=0; i<1000000000; i++){
+            obj = new A("Random name");
+        }
+
     }
+
 }
 
+ class A{
+    final int num = 10;
+    String name;
+
+    public A(String name){
+        System.out.println("Object created");
+        this.name = name;
+    }
+    @Override
+    protected void finalize() throws Throwable{
+        System.out.println("Object is destroyed");
+    }
+}
