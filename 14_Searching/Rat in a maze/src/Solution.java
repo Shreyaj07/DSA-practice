@@ -1,5 +1,5 @@
 /**
- *Rate in a maze problem
+ *Rat in a maze problem
  https://www.codingninjas.com/studio/problems/rat-in-a-maze_1215030
  */
 
