@@ -4,13 +4,14 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         int v = 4;
-        int e = 4;
+
         ArrayList<ArrayList<Integer>> edges = new ArrayList<>();
         edges.add(new ArrayList<>(Arrays.asList(0, 1)));
         edges.add(new ArrayList<>(Arrays.asList(0, 3)));
         edges.add(new ArrayList<>(Arrays.asList(1, 2)));
         edges.add(new ArrayList<>(Arrays.asList(3, 2)));
-
+        edges.add(new ArrayList<>(Arrays.asList(2,0)));
+        int e = edges.size();
         ArrayList<Integer> result = Solution.topologicalSort(edges, v, e);
 
         if (!result.isEmpty()) {
