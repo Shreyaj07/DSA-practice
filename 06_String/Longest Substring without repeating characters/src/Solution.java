@@ -13,12 +13,11 @@ class Solution {
         int i =0;
        while(i<s.length()){
             if(hm.containsKey(s.charAt(i))){
+                i = hm.get(s.charAt(i))+1;
                 hm.clear();
             }
             hm.put(s.charAt(i),i);
-            if(hm.size()>length){
-                length = hm.size();
-            }
+            length = Math.max(length, hm.size());
         }
         return length;
     }

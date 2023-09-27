@@ -9,9 +9,10 @@ public class Traversal {
         }
         g.print();
         System.out.println(bfsTraversal(g.adj));
+        System.out.println(dfsTraversal(g.adj));
     }
-    static  List<List<Integer>> bfsTraversal(List<List<Integer>> adj){
-        return Collections.singletonList(bfsTraversal(5, adj));
+    static  List<Integer> bfsTraversal(List<List<Integer>> adj){
+        return bfsTraversal(5, adj);
     }
     public static List<Integer> bfsTraversal(int n, List<List<Integer>> adj){
         Queue<Integer> q = new LinkedList<>();
@@ -31,8 +32,25 @@ public class Traversal {
         }
         return al;
     }
+    public static List<Integer> dfsTraversal(List<List<Integer>> adj){
+        Stack<Integer> st = new Stack<>();
+        boolean[] visited = new boolean[adj.size()];
+        st.push(0);
+        visited[0] = true;
+        List<Integer> ans = new ArrayList<>();
+        while(!st.isEmpty()){
+            int temp = st.pop();
+            ans.add(temp);
+            for(int neighbours: adj.get(temp)){
+                if(!visited[neighbours]){
+                    st.push(neighbours);
+                    visited[neighbours] = true;
+                }
+            }
+        }
+        return ans;
+    }
 }
-
 class Graph1{
     List<List<Integer>> adj;
     Graph1(int noOfVertices){
