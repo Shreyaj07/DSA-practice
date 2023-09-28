@@ -2,8 +2,8 @@
 
 ## Strivers Sheet
 
-| Day | Problems                                                             | Vaishnavi | Shreya  | Tejashree |
-| --- | ---------------------------------------------------------------------| :-------: | :----:  | :-------: |
+| Day | Problems                                                             | Vaishnavi | Shreya  | Tejashree |   Sapna   |
+| --- | ---------------------------------------------------------------------| :-------: | :----:  | :-------: | :-------: | 
 | 1   | Set Matrix Zeroes                                                    |   &#9745; | &#9745; |           |
 |     | Pascal's Triangle                                                    |   &#9745; | &#9745; |           |
 |     | Next Permutation                                                     |           |         |           |
