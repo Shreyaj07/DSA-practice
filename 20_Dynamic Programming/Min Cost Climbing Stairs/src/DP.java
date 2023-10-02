@@ -8,9 +8,13 @@ public class DP {
     }
     public static int minCostClimbingStairs(int[] cost) {
         int n = cost.length;
+        //tabulation -> bottom up method
+        //step1: creation of dp array
         int[] dp = new int[n];
+        //step2: base case analysis
         dp[0] = cost[0];
         dp[1] = cost[1];
+        //step3: loop
         for(int i=2; i<n; i++){
             dp[i] = Math.min(dp[i-1], dp[i-2])+cost[i];
         }
