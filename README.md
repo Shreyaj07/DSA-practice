@@ -24,7 +24,7 @@
 <a href = "https://www.interviewbit.com/">Interview Bit</a><br/>
 <a href = "https://www.thedailyprogrammer.com/">The Daily Programmer</a><br/>
 <a href = "https://codefight.in/">Code Fight</a><br/>
-<a href = "https://code.golf/">Code Golf</a></br/>
+<a href = "https://code.golf/">Code Golf</a><br/>
 <a href = "https://code.golf/">Advent of Code</a></br>
 
 
