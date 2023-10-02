@@ -26,7 +26,7 @@
 <a href = "https://codefight.in/">Code Fight</a><br/>
 <a href = "https://code.golf/">Code Golf</a><br/>
 <a href = "https://code.golf/">Advent of Code</a></br>
-
+<a href = "https://www.codingninjas.com/">Coding Ninjas</a><br/>
 
 
 # Data Structures and Algorithms Practice
