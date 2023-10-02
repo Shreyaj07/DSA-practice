@@ -1,3 +1,16 @@
+# Imp. Platforms
+
+<a href= "https://www.hackerrank.com">Hackerrank</a><br/>
+<a href = "https://codegym.cc/quests/lectures/en.questsyntaxpro.level01.lecture00">CodeGym</a><br/>
+<a href = "https://leetcode.com">Leetcode</a><br/>
+<a href = "https://www.codechef.com/">CodeChef</a></br>
+<a href = "https://codeforces.com/">CodeForces</a></br>
+<a href = "https://www.topcoder.com/">TopCoder</a>
+<a href = "https://usaco.guide/">USACO Guide</a></br>
+<a href = "https://open.kattis.com/problems">Kattis</a><br/>
+<a href = "https://practice.geeksforgeeks.org/">GFG</a><br/>
+
+
 # Data Structures and Algorithms Practice
 
 ## Strivers Sheet
