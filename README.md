@@ -9,6 +9,24 @@
 <a href = "https://usaco.guide/">USACO Guide</a></br>
 <a href = "https://open.kattis.com/problems">Kattis</a><br/>
 <a href = "https://practice.geeksforgeeks.org/">GFG</a><br/>
+<a href = "https://coderbyte.com/">Coderbyte</a><br/>
+<a href = "https://www.spoj.com/">SPOJ</a><br/>
+<a href = "https://www.pepcoding.com/">Pepcoding</a><br/>
+<a href = "https://icpc.global/">ICPC</a><br/>
+<a href = "https://dmoj.ca/">DMOJ</a><br/>
+<a href = "https://exercism.org/">Exercism</a><br/>
+<a href = "https://www.codewars.com/">Codewars</a><br/>
+<a href = "https://www.codingame.com/start/">CodinGame</a><br/>
+<a href = "https://codingbat.com/java">Codingbat</a><br/>
+<a href = "https://www.freecodecamp.org/news/tag/java/">FreeCodeCamp</a><br/>
+<a href = "https://projecteuler.net/">Project Euler</a><br/>
+<a href = "https://www.interviewcake.com/">Intervew Cake</a><br/>
+<a href = "https://www.interviewbit.com/">Interview Bit</a><br/>
+<a href = "https://www.thedailyprogrammer.com/">The Daily Programmer</a><br/>
+<a href = "https://codefight.in/">Code Fight</a><br/>
+<a href = "https://code.golf/">Code Golf</a></br/>
+<a href = "https://code.golf/">Advent of Code</a></br>
+
 
 
 # Data Structures and Algorithms Practice
