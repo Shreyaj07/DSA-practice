@@ -49,12 +49,20 @@ public class Main {
     }
     public static int tabulation(ArrayList<Integer> nums){
         int n = nums.size();
+        if (n == 0) {
+            return 0;
+        }
+
         int[] dp = new int[n];
-        Arrays.fill(dp,0);
         dp[0] = nums.get(0);
+
+        if (n > 1) {
+            dp[1] = Math.max(nums.get(0), nums.get(1));
+        }
+
         for(int i=2; i<n; i++){
-            int incl = dp[i-2]+nums.get(i);
-            int excl = dp[i-1] + 0;
+            int incl = dp[i-2] + nums.get(i);
+            int excl = dp[i-1];
             dp[i] = Math.max(incl, excl);
         }
         return dp[n-1];
