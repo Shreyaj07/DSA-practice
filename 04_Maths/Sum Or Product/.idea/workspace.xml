@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="373e0514-34a6-43da-a8f3-a99358fe2c61" name="Changes" comment="">
+    <list default="true" id="5804c24e-0722-4ebc-bbac-9ee8790f50d4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../01_OOPS/Painting Face Algorithm/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01_OOPS/Painting Face Algorithm/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +18,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2VzdfkWOkaxwAjuB3acN8V9wpU7" />
+  <component name="ProjectId" id="2WMbN6Ve0Cm8OyFPmbyydPy8Jhl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,7 +29,6 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/github_folder/clone/DSA-practice/04_Maths/Two Sum",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -39,30 +36,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="Two Sum" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Solution" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="373e0514-34a6-43da-a8f3-a99358fe2c61" name="Changes" comment="" />
-      <created>1695842949290</created>
+      <changelist id="5804c24e-0722-4ebc-bbac-9ee8790f50d4" name="Changes" comment="" />
+      <created>1696545353734</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1695842949290</updated>
-      <workItem from="1695842950322" duration="1308000" />
-      <workItem from="1696559780765" duration="346000" />
+      <updated>1696545353734</updated>
+      <workItem from="1696545354993" duration="721000" />
     </task>
     <servers />
   </component>
