@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="373e0514-34a6-43da-a8f3-a99358fe2c61" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../01_OOPS/Painting Face Algorithm/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01_OOPS/Painting Face Algorithm/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-    </list>
+    <list default="true" id="373e0514-34a6-43da-a8f3-a99358fe2c61" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695842949290</updated>
       <workItem from="1695842950322" duration="1308000" />
-      <workItem from="1696559780765" duration="346000" />
+      <workItem from="1696559780765" duration="1330000" />
     </task>
     <servers />
   </component>
