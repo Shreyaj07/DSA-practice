@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/06_String.iml" filepath="$PROJECT_DIR$/.idea/06_String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Add Strings/Add Strings.iml" filepath="$PROJECT_DIR$/Add Strings/Add Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Convert String/Convert String.iml" filepath="$PROJECT_DIR$/Convert String/Convert String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Duplicate Characters in a String/Duplicate Characters in a String.iml" filepath="$PROJECT_DIR$/Duplicate Characters in a String/Duplicate Characters in a String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generate all strings/Generate all strings.iml" filepath="$PROJECT_DIR$/Generate all strings/Generate all strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Largest Common Prefix/Largest Common Prefix.iml" filepath="$PROJECT_DIR$/Largest Common Prefix/Largest Common Prefix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Longest Palindromic Substring/Longest Palindromic Substring.iml" filepath="$PROJECT_DIR$/Longest Palindromic Substring/Longest Palindromic Substring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Longest Substring without repeating character/Longest Substring without repeating character.iml" filepath="$PROJECT_DIR$/Longest Substring without repeating character/Longest Substring without repeating character.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Longest Substring without repeating characters/Longest Substring without repeating characters.iml" filepath="$PROJECT_DIR$/Longest Substring without repeating characters/Longest Substring without repeating characters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Print Permutation/Print Permutation.iml" filepath="$PROJECT_DIR$/Print Permutation/Print Permutation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Print Permutations/Print Permutations.iml" filepath="$PROJECT_DIR$/Print Permutations/Print Permutations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reverse String/Reverse String.iml" filepath="$PROJECT_DIR$/Reverse String/Reverse String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reverse words in a string/Reverse words in a string.iml" filepath="$PROJECT_DIR$/Reverse words in a string/Reverse words in a string.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Short Sort/Short Sort.iml" filepath="$PROJECT_DIR$/Short Sort/Short Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String Mania/String Mania.iml" filepath="$PROJECT_DIR$/String Mania/String Mania.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String and StringBuilder/String and StringBuilder.iml" filepath="$PROJECT_DIR$/String and StringBuilder/String and StringBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringBuffer/StringBuffer.iml" filepath="$PROJECT_DIR$/StringBuffer/StringBuffer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Valid Anagram/Valid Anagram.iml" filepath="$PROJECT_DIR$/Valid Anagram/Valid Anagram.iml" />
+    </modules>
+  </component>
+</project>
