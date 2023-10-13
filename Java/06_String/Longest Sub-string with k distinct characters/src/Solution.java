@@ -4,6 +4,9 @@ public class Solution {
     public static void main(String[] args) {
         System.out.println(getLengthofLongestSubstring("bacda",3));
         System.out.println(bruteForceApproach("bacda",3));
+        System.out.println(lessComplexityMethod("bacda",3));
+        System.out.println(lessComplexityMethod("abcbc",2));
+        System.out.println(lessComplexityMethod("abccc",1));
     }
     public static int bruteForceApproach(String s, int k) {
         if (s == null || s.length() == 0 || k <= 0) {
@@ -53,5 +56,25 @@ public class Solution {
         }
 
         return maxLen;
+    }
+    public static int lessComplexityMethod(String s, int k){
+        HashMap<Character, Integer> hmap = new HashMap<>();
+        int length = 0;
+        int prevPtr = 0;
+        for(int i=0; i<s.length(); i++){
+            hmap.put(s.charAt(i), hmap.getOrDefault(s.charAt(i), 0) + 1);
+            if(hmap.size() > k){
+                int val = hmap.get(s.charAt(prevPtr));
+                hmap.put(s.charAt(prevPtr), hmap.get(s.charAt(prevPtr))-1);
+                if(val == 1){
+                    hmap.remove(s.charAt(prevPtr));
+                }
+                prevPtr++;
+            }
+            if(hmap.size()<=k){
+                length = Math.max(length, i-prevPtr+1);
+            }
+        }
+        return length;
     }
 }
