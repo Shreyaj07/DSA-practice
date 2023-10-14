@@ -9,18 +9,9 @@ public class Solution {
 		System.out.println(rearrangeString("yaxx"));
 	}
 	public static String rearrangeString(String str) {
-		// Write your code here.
-		char[] ch = str.toCharArray();
-		for(int i=0; i<str.length()-2; i++){
-			if(ch[i]==ch[i+1]){
-				swap(ch,i+1,i+2);
-			}
-		}
-		return Arrays.toString(ch);
+
 	}
 	public static void swap(char[] arr, int i, int j){
-		char temp = arr[i];
-		arr[i] = arr[j];
-		arr[j]= temp;
+
 	}
 }
