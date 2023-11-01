@@ -1,0 +1,23 @@
+function largestPrimeFactor(number) {
+  let largestPrimeFact = 1;
+
+  while (number % 2 === 0) {
+    largestPrimeFact = 2;
+    number /= 2;
+  }
+
+  for (let i = 3; i <= Math.sqrt(number); i += 2) {
+    while (number % i === 0) {
+      largestPrimeFact = i;
+      number /= i;
+    }
+  }
+
+  if (number > 1) {
+    largestPrimeFact = number;
+  }
+
+  return largestPrimeFact;
+}
+
+largestPrimeFactor(13195);
